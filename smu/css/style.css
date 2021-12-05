@@ -1,0 +1,512 @@
+html,
+body,
+body div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+body{
+	background: #222222;
+}
+.container{
+	width: 1250px;
+}
+i{
+	color: #fff;
+}
+.smu_button_design:hover{
+	color: #222 !important;
+}
+.smu_button_design {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222222;
+    border: 2px solid #222222;
+    text-align: center;
+    padding: 15px 35px;
+    background: #FFDB00;
+    position: relative;
+    z-index: 2;
+}
+.smu_button_design:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    left: 20px;
+    top: 20px;
+    z-index: -1;
+    display: inline-block;
+}
+.smu_button_design i {
+    font-size: 24px;
+    margin-left: 25px;
+    color: #000;
+}
+
+
+/*CSS for header Section*/
+
+
+
+
+
+
+/*Css Start for home page hero fair section*/
+.hero_fair{
+	background: #100906;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.hero_fair .fair_text_container{
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+
+
+.smu_button_design i{
+	transform: rotate(45deg);
+}
+
+
+
+
+.flip-clock-wrapper {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+.flip-clock-wrapper ul {
+    list-style: none;
+}
+.flip-clock-wrapper ul {
+    position: relative;
+    float: left;
+    margin: 5px;
+    width: 46px;
+    height: 63px;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 63px;
+    border-radius: 6px;
+    background: #000;
+}
+.flip-clock-wrapper .flip {
+    box-shadow: 0 2px 5px rgb(0 0 0 / 70%);
+}
+
+
+.flip-clock-wrapper ul li {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    text-decoration: none !important;
+}
+.flip-clock-wrapper ul li:first-child {
+    z-index: 2;
+}
+.flip-clock-wrapper ul li.flip-clock-active {
+    z-index: 3;
+}
+
+
+.flip-clock-wrapper ul li a {
+    display: block;
+    height: 100%;
+    -webkit-perspective: 200px;
+    -moz-perspective: 200px;
+    perspective: 200px;
+    margin: 0 !important;
+    overflow: visible !important;
+    cursor: default !important;
+}
+.flip-clock-wrapper a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.flip-clock-wrapper ul li a div {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    font-size: 80px;
+    overflow: hidden;
+    outline: 1px solid transparent;
+}
+.flip-clock-wrapper ul li a div.up {
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -o-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    top: 0;
+}
+.flip-clock-wrapper ul li a div.down {
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    bottom: 0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.flip-clock-wrapper ul li a div .shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.flip-clock-wrapper ul li a div div.inn {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 200%;
+    color: #ccc;
+    text-shadow: 0 1px 2px #000;
+    text-align: center;
+    /*background-color: #333;*/
+    background-image: linear-gradient(#3c3b3e, #262528, #3C3B3E);
+    border-radius: 6px;
+    font-size: 40px;
+}
+.flip-clock-wrapper ul li a div.up div.inn {
+    top: 0;
+}
+.flip-clock-wrapper ul li a div.down div.inn {
+    bottom: 0;
+}
+
+.flip-clock-wrapper ul li a div.up:after {
+    content: "";
+    position: absolute;
+    top: 31px;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+/*Home page about smu Section*/
+.about_smu{
+	background: #FFFFFF;
+	padding-top: 100px;
+	padding-bottom: 135px;
+}
+.about_smu .about_smu_content{
+	padding-left: 45px;
+	padding-right: 85px;
+}
+.about_smu_details{
+	padding-left: 105px;
+    padding-top: 40px;
+}
+.about_smu_image{
+	position: relative;
+}
+.about_smu_image img{
+    border-radius: 7px;
+    z-index: 2 !important;
+    position: relative;
+}
+.about_smu_image:before{
+	content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FFDB00;
+    border-radius: 7px;
+    z-index: 1;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+
+.about_smu_details h3{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	font-size: 28px;
+	color: #222222;
+}
+.about_smu_details p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #222222;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+
+
+
+
+
+/*Home Page What You Can Expect Section css*/
+.what_you_can_expect{
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+.what_you_can_expect_container{
+	padding-left: 30px;
+	padding-right: 25px;
+}
+.what_you_can_expect_container h3{
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: 42px;
+    text-transform: uppercase;
+	text-shadow: 4px 3px #000, 5px 3px #ffdb00, 4px 2px #ffdb00, 4px 4px #ffdb00;
+	margin-bottom: 55px;
+}
+.what_you_can_expect_link { 
+    display: block;
+    text-align: end;
+}
+.what_you_can_expect_link i {
+    transform: rotate(45deg);
+    font-size: 40px;
+    color: #ffdb00; 
+}
+.padin_right{
+	padding-right: 50px;
+}
+.block_inner{
+    padding: 17px 25px 70px 40px;
+    border: 3px solid #ffdb00;
+    border-radius: 7px;
+    position: relative;
+    background: #222;
+}
+.block_inner h4{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	color: #fff;
+}
+.block_inner p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 15px;
+    line-height: 25px;
+}
+.block_inner:hover{
+	background: #ffdb00;	
+}
+.block_inner:hover h4,
+.block_inner:hover p,
+.block_inner:hover .what_you_can_expect_link i{
+	color: #000;
+}
+.block_inner:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #ffdb00;
+    border-radius: 7px;
+    z-index: -1 !important;
+    top: 30px;
+    left: 30px;
+}
+
+
+
+
+/*Home page Participating Partners section css*/
+.participating_partners{
+	padding-top: 75px;
+	background: #fff;
+}
+.participating_partners_title h3{
+	color: #222222;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-shadow: 4px 3px #fff, 5px 3px #ffdb00, 4px 2px #ffdb00, 4px 4px #ffdb00;
+    margin-bottom: 35px;
+}
+.participating_partners_logo{
+	margin-bottom: 30px;
+}
+.participating_partners_logo .slick-slide img {
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+}
+.participating_partners_logo .slick-slide {
+    margin: 0 15px;
+    border: 1px solid #D9D9D9;
+    padding: 20px 15px;
+    border-radius: 7px;
+}
+.participating_partners_logo .slick-list {
+	margin: 0 -15px;
+}
+.participating_partners .smu_button_design:after {
+    background: #222222;
+}
+.city_university_global_focus{
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+.participating_partners .city_university_global_focus .smu_button_design:after {
+    background: #ffffff;
+}
+.city_university_global_focus .city_university_global_focus_left{
+	padding-right: 0px;
+    padding-left: 0px;
+}
+.city_university_global_focus .city_university_global_focus_left img{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+.city_university_global_focus .city_university_global_focus_right{
+	background: #131C58;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	padding: 35px 60px;
+}
+.city_university_global_focus .city_university_global_focus_right h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #fff;
+}
+.city_university_global_focus .city_university_global_focus_right p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 15px;
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+
+
+
+
+/*Footer Css Start */
+.footer_section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #fff;
+}
+.footer_section h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer_section p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+}
+.footer_menu li a{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+	text-decoration: none;
+	padding-right: 10px;
+	border-right: 1px solid #fff;    
+	line-height: 12px;
+    font-size: 14px;
+    display: inline-block;
+}
+.footer_menu li:last-child a{
+	border-right: none !important;
+}

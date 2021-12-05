@@ -22,6 +22,19 @@
     border-radius: 6px;
     background: #000;
 }
+
+/*ul li .inn {*/
+    /*background-image: linear-gradient(to top, #2D292B, #3E3C3E, #626366, #2D292B, #474548, #616164) !important;*/
+    /*background-image: linear-gradient(to top, #2D292B, #3E3C3E, #626366, #413f42, #363335, #616164) !important;*/
+    /*color: #fff !important;*/
+/*}*/
+ul li .inn {
+    background: url(../images/flip.jpg) !important;
+    color: #fff !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+}
+
 .bFlipText-wrapper ul li{
     position: absolute;
     top: 0;
@@ -69,7 +82,8 @@
     height: 1px;
     margin-top:-1px;
     background-color: #000;
-    opacity:0.4;
+    /*opacity:0.4;*/
+    opacity:0;
 }
 
 
@@ -100,9 +114,9 @@
 }
 
 .bFlipText-wrapper ul.play li.bFlipText-active {
-    -webkit-animation: chng_char 0.5s linear 0.5s both;
-    -moz-animation: chng_char 0.5s linear 0.5s both;
-    animation: chng_char 0.5s linear 0.5s both;
+    -webkit-animation: chng_char 1s linear 1s both;
+    -moz-animation: chng_char 1s linear 1s both;
+    animation: chng_char 1s linear 1s both;
     z-index: 5;
 }
 @-webkit-keyframes chng_char {
@@ -129,9 +143,9 @@
 
 .bFlipText-wrapper ul.play li.bFlipText-before .up{
     z-index: 2;
-    -webkit-animation: up_rotat 0.5s linear both;
-    -moz-animation: up_rotat 0.5s linear both;
-    animation: up_rotat 0.5s linear both;
+    -webkit-animation: up_rotat 1s linear both;
+    -moz-animation: up_rotat 1s linear both;
+    animation: up_rotat 1s linear both;
 }
 @-webkit-keyframes up_rotat {
     0% {-webkit-transform: rotateX(0deg);}
@@ -153,9 +167,9 @@
 
 .bFlipText-wrapper ul.play li.bFlipText-active .down{
     z-index: 2;
-    -webkit-animation: down_rotat 0.5s linear 0.5s  both;
-    -moz-animation: down_rotat 0.5s linear 0.5s  both;
-    animation: down_rotat 0.5s linear 0.5s  both;
+    -webkit-animation: down_rotat 1s linear 1s  both;
+    -moz-animation: down_rotat 1s linear 1s  both;
+    animation: down_rotat 1s linear 1s  both;
 }
 @-webkit-keyframes down_rotat {
     0% {-webkit-transform: rotateX(90deg);}
@@ -184,9 +198,9 @@
     background: -o-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, black 100%);
     background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, black 100%);
     background: linear, to bottom, rgba(0, 0, 0, 0.1) 0%, black 100%;
-    -webkit-animation: shdow_show 0.5s linear both;
-    -moz-animation: shdow_show 0.5s linear both;
-    animation: shdow_show 0.5s linear both;
+    -webkit-animation: shdow_show 1s linear both;
+    -moz-animation: shdow_show 1s linear both;
+    animation: shdow_show 1s linear both;
 }
 .bFlipText-wrapper ul.play li.bFlipText-before .down .shadow {
     background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.1) 100%);
@@ -195,9 +209,9 @@
     background: -o-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.1) 100%);
     background: -ms-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.1) 100%);
     background: linear, to bottom, black 0%, rgba(0, 0, 0, 0.1) 100%;
-    -webkit-animation: shdow_show 0.5s linear both;
-    -moz-animation: shdow_show 0.5s linear both;
-    animation: shdow_show 0.5s linear both;
+    -webkit-animation: shdow_show 1s linear both;
+    -moz-animation: shdow_show 1s linear both;
+    animation: shdow_show 1s linear both;
 }
 
 /* Shadow Active Show*/
@@ -208,9 +222,9 @@
     background: -o-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, black 100%);
     background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, black 100%);
     background: linear, to bottom, rgba(0, 0, 0, 0.1) 0%, black 100%;
-    -webkit-animation: shdow_hide 0.5s linear 0.3s both;
-    -moz-animation: shdow_hide 0.5s linear 0.3s both;
-    animation: shdow_hide 0.5s linear 0.3s both;
+    -webkit-animation: shdow_hide 1s linear 0.6s both;
+    -moz-animation: shdow_hide 1s linear 0.6s both;
+    animation: shdow_hide 1s linear 0.6s both;
 }
 
 .bFlipText-wrapper ul.play li.bFlipText-active .down .shadow {
@@ -220,9 +234,9 @@
     background: -o-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.1) 100%);
     background: -ms-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.1) 100%);
     background: linear, to bottom, black 0%, rgba(0, 0, 0, 0.1) 100%;
-    -webkit-animation: shdow_hide 0.5s linear 0.3s both;
-    -moz-animation: shdow_hide 0.5s linear 0.3s both;
-    animation: shdow_hide 0.5s linear 0.3s both;
+    -webkit-animation: shdow_hide 1s linear 0.6s both;
+    -moz-animation: shdow_hide 1s linear 0.6s both;
+    animation: shdow_hide 1s linear 0.6s both;
 }
 
 @-webkit-keyframes shdow_show{
